@@ -1,0 +1,27 @@
+/*class creation*/
+
+class Unit{
+    private:
+    	string unitRank;
+    	int soldiers;
+    	int lvl;
+    	int exp;
+    	bool special;
+    public:
+	string GetUnitRank; 
+	int GetSoldiers;
+	int GetLvl; 
+	bool GetSpecial; 
+	string unitType;
+    Unit(string GetUnitRank, int GetSoldiers,int GetLvl, bool GetSpecial, string unitType){
+	void set_GetUnitRank(string unitRank);
+        string get_GetUnitRank;
+	void set_GetSoldiers(int soldiers);
+        int get_soldiers();
+	void set_Lvl(int lvl);
+        int get_lol();
+        void get_special(bool special)
+        bool get_special();
+        unitType= "None";
+    }
+   
